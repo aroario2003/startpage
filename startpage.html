@@ -1,0 +1,103 @@
+<body>
+<title> 
+    startpage
+</title>
+<link rel="stylesheet" href="main.css" type="text/css"></link>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://unpkg.com/@coreui/icons@2.0.0-beta.3/css/all.min.css">
+<div class="banner-hold"> 
+    <h1 class="banner">Welcome legend</h1>
+    <p class="banner-text"><span id="datetime"></span></p>
+</div>
+<div class="search-content">
+<form class="search-bar" action="https://search.brave.com/search" method="GET">
+    <input type="text" name="q" placeholder="Search brave with brave search">
+    <button type="submit" class="fa fa-search"></button>
+</form>
+</div>
+<div class="container">
+<div class="column">
+ <div class="info-box">
+    <i class="fa fa-star-o" style="font-size:24px; color:#ffa86f; margin-left:30px; margin-bottom:8px"></i>
+    <p class="title">Favorites</p>
+    <i class="fa fa-youtube" style="font-size:24px; color:#f7768e; display:inline; margin-left:2.5rem; padding-bottom:10px"></i>
+    <a class="youtube" href="https://youtube.com">Youtube</a>
+    <i class="fa fa-gitlab" style="font-size:24px; margin-left:40px; display:inline; color: #ffa86f; padding-bottom:0px"></i>
+    <a class="gitlab" href="https://gitlab.com">Gitlab</a>
+    <i class="fa fa-github" style="font-size:24px; margin-left:2.7rem; margin-right:0px; width:30px; display:inline; color:#c3a4f8"></i>
+    <a class="github" href="https://github.com">Github</a>
+    <i class="cib-arch-linux" style="font-size:24px; margin-left:2.7rem; display:inline; color:#88afff"></i>
+    <a class="ArchWiki" href="https://wiki.archlinux.org">ArchWiki</a>
+</div>
+<div class="resources">
+    <i class="cil-book" style="font-size:24px; color:#88afff; margin-left:30px; margin-bottom:8px"></i>
+    <p class="resource-title">Resources</p>
+    <i class="cil-code" style="font-size:22px; margin-left:30px; color:#f7768e; margin-bottom:8px"></i>
+    <a class="w3schools" href="https://www.w3schools.com/">W3schools</a>
+    <i class="cil-file" style="font-size:22px; color:#ffa86f; margin-left:30px; margin-bottom:8px"></i>
+    <a class="man-pages" href="https://man7.org/linux/man-pages/">Man Pages</a>
+    <i class="cib-linux" style="font-size:22px; margin-left:30px; margin-bottom:8px; color:#c3a4f8; display:inline"></i>
+    <a class="unix-se" href="https://unix.stackexchange.com">Unix SE</a>
+    <i class="cib-stackoverflow" style="font-size:22px; color:#88afff; margin-left:2rem; display:inline"></i>
+    <a class="stack" href="https://stackoverflow.com">Stack</a>
+</div>
+</div>
+<script>
+var dt = new Date();
+document.getElementById("datetime").innerHTML = (("0"+(dt.getMonth()+1)).slice(-2)) +"/"+ (("0"+dt.getDate()).slice(-2)) +"/"+ (dt.getFullYear());
+</script>
+<div class="column1">
+<div class="search-engines"> 
+    <i class="fa fa-search" style="font-size:24px; color:#c3a4f8; margin-left:10px; margin-bottom:8px"></i>
+    <p class="search-title">Search Engines</p>
+    <i class="fa fa-google" style="font-size:24px; color:#f7768e; margin-left:2.9rem; margin-bottom:3px"></i>
+    <a class="google" href="https://google.com">Google</a>
+    <i class="cib-duckduckgo" style="font-size:22px; color:#ffa86f; display:inline; margin-left:2.8rem; margin-bottom:3px"></i>
+    <a class="duckduckgo" href="https://duckduckgo.com">Duckduckgo</a>
+    <i class="cib-brave" style="font-size:22px; color:#c3a4f8; margin-left:2.8rem"></i>
+    <a class="brave" href="https://search.brave.com">Brave</a>
+    <i class="cil-search" style="font-size:22px; margin-left:2.9rem; color:#88afff"></i>
+    <a class="startpage" href="https://startpage.com">Startpage</a>
+</div>
+<div class="social">
+    <i class="cil-chat-bubble" style="font-size:25px; color:#09c1dc; margin-left:45px; margin-bottom:8px;"></i>
+    <p class="social-title">Social</p>
+    <i class="cib-reddit" style="font-size:22px; color:#f7768e; margin-left:3rem; margin-bottom:8px"></i>
+    <a class="reddit" href="reddit.com">Reddit</a>
+    <i class="cib-discord" style="font-size:22px; margin-left:3rem; margin-bottom:8px; color:#ffa86f"></i>
+    <a class="discord" href="https://discord.com">Discord</a>
+    <i class="cib-gmail" style="font-size:22px; margin-left:3rem; margin-bottom:8px; color:#c3a4f8"></i>
+    <a class="gmail" href="https://gmail.com">Gmail</a>
+    <i class="cib-twitter" style="font-size:22px; color:#88afff; margin-left:3rem;"></i>
+    <a class="twitter" href="https://twitter.com">Twitter</a>
+</div>
+</div>
+<div class="column2">
+<div class="media">
+    <i class="cil-monitor" style="font-size:22px; margin-left:10px; color:#9ece6a; margin-bottom:8px; margin-left:55px"></i>
+    <p class="media-title">Media</p>
+    <i class="cib-netflix" style="font-size:22px; margin-bottom:8px; color:#f7768e; margin-left:2.7rem"></i>
+    <a class="netflix" href="https://netflix.com">Netflix</a>
+    <i class="cib-amazon" style="font-size:22px; margin-left:2.7rem; color:#ffa86f; margin-bottom:8px;"></i>
+    <a class="prime" href="https://www.amazon.com/Prime-Video/b?node=2676882011">Prime</a>
+    <i class="cib-hulu" style="font-size:22px; color:#c3a4f8; margin-left:2.8rem; margin-bottom:8px"></i>
+    <a class="hulu" href="https://hulu.com">Hulu</a>
+    <i class="cil-tv" style="font-size:24px; color:#88afff; margin-left:2.7rem; margin-bottom:8px"></i>
+    <a class="disney" href="https://disneyplus.com">Disney+</a>
+</div>
+<div class="general">
+    <i class="fa fa-list" style="font-size:22px; color:#f7768e; margin-left:45px; margin-bottom:8px;"></i>
+    <p class="general-title">General</p>
+    <i class="cil-description" style="font-size:22px; color:#f7768e; margin-left:2.9rem; margin-bottom:8px"></i>
+    <a class="google-docs" href="https://docs.google.com">Docs</a>
+    <i class="cil-cloud" style="font-size:22px; color:#ffa86f; margin-left:2.9rem; margin-bottom:8px"></i>
+    <a class="google-drive" href="https://drive.google.com">Drive</a>
+    <i class="cib-reddit" style="font-size:22px; margin-left:2.9rem; margin-bottom:8px; color:#c3a4f8; display:inline"></i>
+    <a class="unixporn" href="https://reddit.com/r/unixporn">r/unixporn</a>
+    <i class="cib-linux" style="font-size:22px; margin-left:2.9rem; margin-bottom:8px; color:#88afff; display:inline"></i>
+    <a class="linux" href="https://reddit.com/r/linux">r/linux</a
+</div>
+</div>
+</div>
+</body>
+

@@ -1,0 +1,449 @@
+*::after,
+*::before {
+    box-sizing: border-box;
+    }
+
+body {
+    background-image: url(file:///home/legend/Pictures/stripes.png);
+}
+
+body::-webkit-scrollbar {
+    width: 5px;
+    display: none;
+}
+
+body::-webkit-scrollbar-track {
+  background: #16161e;       
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #88afff;;    
+  border-radius: 20px;        
+}
+ 
+.info-box {
+    background-color: #16161e; 
+    width: 205px;
+    height: 11rem;
+    border: solid 2px #88afff;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: auto;
+}
+
+
+.title {
+    display: inline;
+    font-size: 20px;
+    color: #9ece6a;
+    font-style: bold;
+    font-family: Mononoki Nerd Font;
+}
+
+.youtube {
+    color: #c0caf5;
+    font-size: 20px;
+    display: inline;
+    margin-left: 10px;
+}
+
+.gitlab{
+    color: #c0caf5;
+    font-size: 20px;
+    display: inline;
+    margin-left: 10px;
+    margin-right:20px
+}
+
+.github { 
+    display: inline;
+    margin-left: 10px;;
+    font-size: 20px;
+    color: #c0caf5;
+    margin-right: 20px;
+}
+
+.column {
+    margin-left: auto;
+}
+
+.ArchWiki {
+    color: #c0caf5;
+    margin-left: 6px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.banner-hold {
+    margin: 20px auto;
+    background-color: #16161e;
+    width: 40.5rem;
+    height: 10rem;
+    border: 2px solid #88afff;
+    border-radius: 10px;
+}
+
+.banner {
+    font-size: 80px;
+    background: linear-gradient(to right, #f7768e, #ffa86f, #9ece6a, #88afff, #09c1dc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-right: 0px;
+    margin-left: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: Mononoki Nerd Font;
+
+}
+
+/*.todo-hold {
+    background-color: #16161e;
+    border: 2px solid #88afff;
+    border-radius: 10px;
+    height: 22rem;
+    width: 205px;
+    margin-left: auto;
+}*/
+
+.banner-text {
+    font-size: 40px;
+    background: linear-gradient(to right, #f7768e, #ffa86f, #9ece6a, #88afff, #09c1dc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 10px 14.5rem;
+}
+
+.search-engines {
+    background-color: #16161e;
+    border: 2px solid #88afff;
+    width: 205px;
+    height: 11rem;
+    border-radius: 10px;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.google {
+    display: inline;
+    color: #c0caf5;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.duckduckgo {
+    display: inline;
+    color: #c0caf5;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.brave {
+    display: inline;
+    color: #c0caf5;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.startpage {
+    display: inline;
+    color: #c0caf5;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.search-bar {
+    border: none; 
+    margin-block-end: 0em;
+    display: inline;
+}
+
+.search-bar:focus {
+    outline: none;
+}
+
+.search-content{
+    background-color: #16161e;
+    border: 2px solid #88afff;
+    border-radius: 10px;
+    width: 39.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+::placeholder {
+    color: #c0caf5;
+    font-size: 15px;
+}
+
+.prime {
+    color: #c0caf5;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+    display: inline;
+}
+
+.hulu {
+    color: #c0caf5;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+    display: inline;
+}
+
+.disney {
+    color: #c0caf5;
+    display: inline;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+button {
+    height:2rem;
+    color: #c3a4f8;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    margin-left: 0px;
+}
+
+button:hover {
+  
+  background-image: linear-gradient(to right, #f7768e, #ffa86f, #9ece6a, #88afff, #09c1dc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+input {
+    background-color: #00000000;
+    color: #c0caf5;
+    margin-right: auto;
+    font-size: 15px;;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    width: 37.5rem;
+}
+
+.column2 {
+    margin-right: auto;
+}
+
+.media {
+    background-color: #16161e;
+    border: 2px solid #88afff;
+    width: 205px;
+    height: 11rem;
+    border-radius: 10px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.netflix {
+    display: inline;
+    color: #c0caf5;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.resources {
+    background-color: #16161e;
+    width: 205px;
+    height: 11rem;
+    border: 2px solid #88afff;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: 0px;
+    margin-top: 10px;
+}
+
+.social {
+    background-color: #16161e;
+    width: 205px;
+    height: 11rem;
+    border: 2px solid #88afff;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.social-title {
+    color: #ffa86f;
+    margin-left: 2px;
+    font-size: 20px;
+    font-family: Mononoki Nerd Font;
+    display: inline;
+}
+
+.reddit {
+    color: #c0caf5;
+    display: inline;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.unixporn {
+    color: #c0caf5;
+    display: inline;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.discord {
+    color: #c0caf5;
+    display: inline;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.gmail {
+    color: #c0caf5;
+    font-size:20px;
+    margin-left: 10px;
+    display: inline;
+}
+
+.twitter {
+    font-size: 20px;
+    color: #c0caf5;
+    margin-left: 10px;
+    display: inline;
+}
+
+
+.w3schools {
+    color: #c0caf5;
+    margin-left: 10px;
+    font-size: 20px;
+    display: inline;
+}
+
+.man-pages {
+    color: #c0caf5;
+    margin-left: 10px;
+    font-size: 20px;
+    display: inline;
+}
+
+.unix-se {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+    color: #c0caf5;
+    display: inline;
+}
+
+.stack {
+    font-size: 20px;
+    margin-left: 10px;
+    color: #c0caf5;
+    display: inline;
+}
+
+.general {
+    background-color: #16161e;
+    width: 205px;
+    height: 11rem;
+    border: 2px solid #88afff;
+    border-radius: 10px;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+.general-title {
+    color: #88afff;
+    font-size: 20px;
+    font-family: Mononoki Nerd Font;
+    display: inline;
+    margin-left: 2px;
+}
+
+.google-docs {
+    color: #c0caf5;
+    font-size: 20px;
+    display: inline;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.google-drive {
+    color: #c0caf5;
+    font-size: 20px;
+    display: inline;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.linux {
+    color: #c0caf5;
+    display: inline;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.resource-title {
+    color: #f7768e;
+    font-family: Mononoki Nerd Font;
+    font-size: 20px;
+    margin-left:2px;
+    display: inline;
+}
+
+.media-title {
+    color: #c3a4f8;
+    font-family: Mononoki Nerd Font;
+    font-size: 20px;
+    display: inline;
+    margin-left: 2px;
+}
+
+.search-title {
+    display: inline;
+    margin-left: 2px;
+    font-family: Mononoki Nerd Font;
+    font-size: 20px;
+    color: #09c1dc;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.info-box a:hover {
+   color: #9ece6a;
+   transition: all 0.5s;
+}
+
+.search-engines a:hover {
+    color: #09c1dc;
+    transition: all 0.5s;
+}
+.media a:hover {
+    color:#c3a4f8;
+    transition: all 0.5s;
+}
+.resources a:hover {
+    color: #f7768e;
+    transition: all 0.5s;
+}
+
+.social a:hover {
+    color: #ffa86f;
+    transition: all 0.5s;
+}
+
+.general a:hover {
+    color: #88afff;
+    transition: all 0.5s;
+}
